@@ -1,0 +1,628 @@
+<!-- # PHASE 1 — HTML FUNDAMENTALS
+
+## 1. HTML Element
+
+Function: Represents a complete piece of HTML content.
+
+Logic: An element usually consists of a tag and its content.
+
+Example:
+
+<p>Hello</p>
+
+
+## 2. HTML Tag
+
+Function: Tells the browser what type of content an element represents.
+
+Example:
+
+<p>
+
+
+## 3. Opening Tag
+
+Function: Marks where an HTML element starts.
+
+Example:
+
+<p>
+
+
+## 4. Closing Tag
+
+Function: Marks where an HTML element ends.
+
+Example:
+
+</p>
+
+
+## 5. HTML Nesting
+
+Function: Places one element inside another element.
+
+Logic: HTML elements can form a parent → child structure.
+
+Example:
+
+<div>
+    <p>Hello</p>
+</div>
+
+
+## 6. Parent, Child & Sibling Elements
+
+Function: Describes the relationships between HTML elements.
+
+Logic: An element containing another is the parent; the contained element is the child; elements sharing the same parent are siblings.
+
+Example:
+
+<div>
+    <p>Hello</p>
+    <p>World</p>
+</div>
+
+
+## 7. HTML Attributes
+
+Function: Provides additional information or configuration for an element.
+
+Example:
+
+<a href="https://example.com">Visit</a>
+
+
+## 8. Attribute Value
+
+Function: Defines the specific value assigned to an attribute.
+
+Example:
+
+<a href="https://example.com">
+
+href = attribute
+"https://example.com" = attribute value
+
+
+## 9. Boolean Attributes
+
+Function: Represents a true/false setting by its presence or absence.
+
+Logic: If the attribute exists, it is enabled.
+
+Example:
+
+<input disabled>
+
+
+## 10. Global Attributes
+
+Function: Provides attributes that can be used on most HTML elements.
+
+Example:
+
+<p id="intro" class="text">Hello</p>
+
+id and class are global attributes.
+
+
+# PHASE 2 — HTML DOCUMENT STRUCTURE
+
+## 11. <!DOCTYPE html>
+
+Function: Tells the browser that the document uses modern HTML.
+
+Logic: It should be placed at the very beginning of an HTML document.
+
+Example:
+
+<!DOCTYPE html>
+
+
+## 12. <html>
+
+Function: The root element that contains the entire HTML document.
+
+Logic: All other HTML elements are placed inside <html>.
+
+Example:
+
+<html>
+    ...
+</html>
+
+
+## 13. <head>
+
+Function: Contains information and resources about the webpage that are not the main page content.
+
+Example:
+
+<head>
+    <title>My Website</title>
+</head>
+
+
+## 14. <body>
+
+Function: Contains the main content displayed on the webpage.
+
+Example:
+
+<body>
+    <h1>Hello</h1>
+    <p>Welcome to my website.</p>
+</body>
+
+
+## 15. <title>
+
+Function: Defines the webpage title shown in the browser tab.
+
+Example:
+
+<title>My Website</title>
+
+
+## 16. <meta>
+
+Function: Provides metadata about the HTML document.
+
+Example:
+
+<meta charset="UTF-8">
+
+
+## 17. <link>
+
+Function: Connects the HTML document to an external resource.
+
+Logic: It is commonly used to connect CSS files.
+
+Example:
+
+<link rel="stylesheet" href="style.css">
+
+
+## 18. <style>
+
+Function: Contains CSS rules directly inside the HTML document.
+
+Example:
+
+<style>
+    p {
+        color: red;
+    }
+</style>
+
+
+## 19. <script>
+
+Function: Embeds or loads JavaScript into the webpage.
+
+Example:
+
+<script src="app.js"></script>
+
+
+## 20. HTML Document Hierarchy
+
+Function: Defines the structural relationship between HTML elements.
+
+Logic: The basic hierarchy is html → head/body → content.
+
+Example:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+    </head>
+
+    <body>
+        <h1>Hello</h1>
+        <p>Welcome.</p>
+    </body>
+</html>
+
+
+# PHASE 3 — TEXT & HEADINGS
+
+## 21. <h1>
+
+Function: Defines the main heading of a page.
+
+Logic: Use it for the page's primary heading.
+
+Example:
+
+<h1>Learning HTML</h1>
+
+
+## 22. <h2>
+
+Function: Defines a second-level heading.
+
+Example:
+
+<h2>HTML Basics</h2>
+
+
+## 23. <h3>
+
+Function: Defines a third-level heading.
+
+Example:
+
+<h3>HTML Elements</h3>
+
+
+## 24. <h4>
+
+Function: Defines a fourth-level heading.
+
+Example:
+
+<h4>HTML Tags</h4>
+
+
+## 25. <h5>
+
+Function: Defines a fifth-level heading.
+
+Example:
+
+<h5>Examples</h5>
+
+
+## 26. <h6>
+
+Function: Defines a sixth-level heading.
+
+Example:
+
+<h6>Notes</h6>
+
+
+## 27. <p>
+
+Function: Defines a paragraph of text.
+
+Example:
+
+<p>I am learning HTML.</p>
+
+
+## 28. <br>
+
+Function: Creates a line break.
+
+Example:
+
+Hello<br>World
+
+
+## 29. <hr>
+
+Function: Represents a thematic break between sections of content.
+
+Example:
+
+<p>Chapter 1</p>
+<hr>
+<p>Chapter 2</p>
+
+
+## 30. <strong>
+
+Function: Indicates that the content has strong importance.
+
+Example:
+
+<strong>Important!</strong>
+
+
+## 31. <em>
+
+Function: Indicates emphasized content.
+
+Example:
+
+<em>This is important.</em>
+
+
+## 32. <b>
+
+Function: Draws attention to text without adding importance.
+
+Example:
+
+<b>Product Name</b>
+
+
+## 33. <i>
+
+Function: Represents text in an alternate voice, mood, or terminology.
+
+Example:
+
+<i>Homo sapiens</i>
+
+
+## 34. <u>
+
+Function: Represents text with a non-textual annotation.
+
+Example:
+
+<u>Misspelled</u>
+
+
+## 35. <s>
+
+Function: Represents content that is no longer accurate or relevant.
+
+Example:
+
+<s>$50</s> $30
+
+
+## 36. <mark>
+
+Function: Highlights text because it is relevant to the current context.
+
+Example:
+
+<mark>Important keyword</mark>
+
+
+## 37. <small>
+
+Function: Represents side comments or small-print text.
+
+Example:
+
+<small>Terms and conditions apply.</small>
+
+
+## 38. <sub>
+
+Function: Displays subscript text.
+
+Example:
+
+H<sub>2</sub>O
+
+
+## 39. <sup>
+
+Function: Displays superscript text.
+
+Example:
+
+x<sup>2</sup>
+
+
+## 40. <blockquote>
+
+Function: Represents a long quotation from another source.
+
+Example:
+
+<blockquote>
+    Learning never stops.
+</blockquote>
+
+
+## 41. <q>
+
+Function: Represents a short inline quotation.
+
+Example:
+
+<p>He said, <q>Hello</q>.</p>
+
+
+## 42. <cite>
+
+Function: Identifies the title of a creative work.
+
+Example:
+
+<cite>The Great Gatsby</cite>
+
+
+## 43. <code>
+
+Function: Represents a short piece of computer code.
+
+Example:
+
+<code>console.log("Hello");</code>
+
+
+## 44. <pre>
+
+Function: Preserves whitespace and line breaks in preformatted text.
+
+Example:
+
+<pre>
+Hello
+    World
+</pre>
+
+
+## 45. <kbd>
+
+Function: Represents user input from a keyboard or other input device.
+
+Example:
+
+Press <kbd>Ctrl</kbd> + <kbd>C</kbd>
+
+
+## 46. <samp>
+
+Function: Represents sample output from a computer program.
+
+Example:
+
+<samp>File not found.</samp>
+
+
+## 47. <var>
+
+Function: Represents a variable in a mathematical or programming expression.
+
+Example:
+
+<var>x</var> = 10
+
+
+## 48. <abbr>
+
+Function: Represents an abbreviation or acronym.
+
+Example:
+
+<abbr title="HyperText Markup Language">HTML</abbr>
+
+
+## 49. <time>
+
+Function: Represents a specific time or date.
+
+Example:
+
+<time datetime="2026-08-15">August 15, 2026</time>
+
+
+## 50. <address>
+
+Function: Represents contact information for a person, organization, or webpage.
+
+Example:
+
+<address>
+    Contact: hello@example.com
+</address>
+
+
+# PHASE 4 — LINKS & NAVIGATION
+
+## 51. <a>
+
+Function: Creates a hyperlink to another page, resource, or location.
+
+Logic: The href attribute defines where the link goes.
+
+Example:
+
+<a href="https://example.com">Visit Example</a>
+
+
+## 52. href
+
+Function: Specifies the destination of a link or external resource.
+
+Example:
+
+<a href="about.html">About</a>
+
+
+## 53. Absolute URL
+
+Function: Specifies a complete URL including the protocol and domain.
+
+Example:
+
+<a href="https://example.com/about.html">About</a>
+
+
+## 54. Relative URL
+
+Function: Specifies a resource location relative to the current page.
+
+Example:
+
+<a href="about.html">About</a>
+
+
+## 55. Internal Page Link
+
+Function: Links to another page within the same website.
+
+Example:
+
+<a href="/about.html">About</a>
+
+
+## 56. Fragment Identifier
+
+Function: Links directly to a specific element on the same page.
+
+Logic: The href uses # followed by an element's id.
+
+Example:
+
+<a href="#contact">Contact</a>
+
+<section id="contact">
+    <h2>Contact</h2>
+</section>
+
+
+## 57. target
+
+Function: Specifies where a linked document should open.
+
+Example:
+
+<a href="https://example.com" target="_blank">Open</a>
+
+
+## 58. rel
+
+Function: Defines the relationship between the current page and the linked resource.
+
+Example:
+
+<a href="https://example.com" rel="noopener">Visit</a>
+
+
+## 59. Download Link
+
+Function: Tells the browser to download a linked resource instead of navigating to it.
+
+Example:
+
+<a href="file.pdf" download>Download PDF</a>
+
+
+## 60. Email & Telephone Links
+
+Function: Creates links that open an email client or phone application.
+
+Example:
+
+<a href="mailto:hello@example.com">Email</a>
+<a href="tel:+123456789">Call</a>
+
+
+## 61. <nav>
+
+Function: Defines a section containing navigation links.
+
+Logic: Use it for major navigation areas of a website.
+
+Example:
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+</nav> -->
