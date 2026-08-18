@@ -86,4 +86,5 @@ Function: Makes images understandable and usable for people using assistive tech
 Logic: Use meaningful "alt" text for informative images and appropriate empty "alt=""" for decorative images.
 Example:
 
-<img src="logo.png" alt="HSAN">I 
+<img src="logo.png" alt="HSAN">I
+
